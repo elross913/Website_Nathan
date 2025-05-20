@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/image_project_1.png'); /* Replace 'background.jpg' with your image file name */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Ensures the body takes up the full viewport height */
+}
+
+/* Header container styling */
+.header {
+    position: relative; /* Ensures child elements are positioned relative to the header */
+    width: 100%; /* Full width of the page */
+    height: 80px; /* Adjust height as needed */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between agency name and menu icon */
+    align-items: center; /* Vertically center items */
+    padding: 0 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+    font-family: "Brown-Pro-Light", sans-serif;
+}
+
+/* Agency name styling */
+.header .agency-name {
+    font-size: 2.5rem; /* Scales with the root font size */
+    font-weight: normal;
+    color: #ffffff;
+}
+
+/* Menu icon styling */
+.header .menu-icon {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    cursor: pointer;
+}
+
+
+/* Main section styling */
+main {
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    text-align: left;
+    font-size: 1rem; /* Base font size for the main section */
+    color: #ffffff;
+    font-family: "Brown-Pro-Light", sans-serif;
+}
+
+/* Main title styling */
+main h1 {
+    font-size: 2rem; /* Scales with the root font size */
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+/* Main paragraph styling */
+main p {
+    font-size: 1rem; /* Scales with the root font size */
+    margin: 0;
+}
+
+/* Chevron navigation styling */
+.chevron-navigation {
+    position: relative; /* Relative container for chevrons */
+    width: 100%; /* Full width of the page */
+    height: 100%; /* Full height of the page */
+}
+
+/* Left chevron styling */
+#chevron-left {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 10px; /* Position near the left edge */
+    transform: translateY(-50%); /* Adjust for perfect vertical centering */
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    cursor: pointer; /* Indicates the icon is clickable */
+}
+
+/* Right chevron styling */
+#chevron-right {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    right: 10px; /* Position near the right edge */
+    transform: translateY(-50%); /* Adjust for perfect vertical centering */
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    cursor: pointer; /* Indicates the icon is clickable */
+}
