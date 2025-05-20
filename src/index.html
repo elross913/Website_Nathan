@@ -4,20 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
+    <title>ArchiArchiArchitecte</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-
+    <!-- Header Section -->
     <header class="header">
         <div class="agency-name">ARCHIARCHIARCHITECTE</div>
-        <a href="#">
-            <img src="assets/images/icon-menu.png" alt="Menu Icon" class="menu-icon">
-        </a>
+        <nav class="menu-icons">
+            <a href="#" id="menu-icon">
+                <img src="assets/images/icon-menu.png" alt="Menu Icon" class="menu-icon">
+            </a>
+            <a href="#" id="cross-icon" style="display: none;">
+                <img src="assets/images/icon-cross.png" alt="Cross Icon" class="menu-icon">
+            </a>
+        </nav>
     </header>
 
-    <!-- Main section to describe the background image -->
+    <!-- Main Content Section -->
     <main>
         <div class="description">
             <h1>Welcome to ArchiArchiArchitecte</h1>
@@ -25,12 +30,14 @@
         </div>
     </main>
 
-    <!-- Chevron icons for navigation (moved outside of <main>) -->
+    <!-- Chevron Navigation -->
     <div class="chevron-navigation">
         <img src="assets/images/icon-chevron-gauche.png" alt="Previous" id="chevron-left" class="chevron-icon">
         <img src="assets/images/icon-chevron-droit.png" alt="Next" id="chevron-right" class="chevron-icon">
     </div>
 
+    <!-- JavaScript -->
     <script src="assets/js/scripts.js"></script>
 </body>
+
 </html>
